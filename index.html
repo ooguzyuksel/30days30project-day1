@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <h1>Dynamic Progress Bar</h1>
+    <div class="progress">
+        <div class="progress-done" data-done="0">
+            0%
+        </div>
+    </div>
+
+    <div class="container">
+        <input class="slider" type="range" min="1" max="100">
+    </div>
+    <button class="btn btn-primary">Proceed Progress</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

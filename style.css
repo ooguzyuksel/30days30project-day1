@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Reggae One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.progress{
+    background-color: #d8d8d8;
+    border-radius: 1.5rem;
+    position: relative;
+    margin: 1rem 0;
+    height: 2rem;
+    width: 30rem;
+}
+
+.progress-done{
+    background: linear-gradient(to right, #f2709c,#ff9472);
+    box-shadow: 0 3px 3 px -5px #f2709c,0 2px 5px #f2709c;
+    border-radius: 1.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    width: 200%;
+}
+
+.btn{
+    border: none;
+    color: #a1a1a1;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    box-shadow: -12px -12px 12px 0 rgb(255, 255, 255,1),12px 12px 12px 0 rgba(0, 0, 0, .08);
+
+}
+
+
